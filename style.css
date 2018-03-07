@@ -1,0 +1,133 @@
+html{ font-size: 18px;}
+
+h1, h4{font-family: Helvetica;
+font-weight: bold;}
+
+.sitecontainer{max-width: 960px;
+margin: 0 auto;
+height: 1500px;}
+
+.container{max-width: 960px;
+margin: 0 auto;}
+
+/* header */
+
+.header{width: 100%;
+background-color: black;
+color: white;}
+
+.headercontainer img{height: 1.5rem;
+padding-right: 1rem;
+padding-left: .5rem;}
+
+.headercontainer{display: flex;
+align-items: center;
+padding-top: .66rem;
+padding-bottom: .66rem;}
+
+/* mainbanner */
+
+.main-banner{background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 25rem;}
+
+.mbcontainer{max-width: 960px;
+margin: 0 auto;}
+
+.headline{ color: white;
+background-color: black;
+position: relative;
+padding: 2rem 3rem;
+width: 20rem;
+top: 9rem;
+left: 3rem;
+}
+
+.headline h4 {font-family: Helvetica;
+font-size: 1rem;
+font-weight: bold;
+padding-bottom: .25rem;
+}
+
+.headline h1 {font-family: Helvetica;
+font-size: 2rem;
+font-weight: bold;}
+
+/* navbar */
+
+nav{background-color: firebrick;
+width:100%;
+color: white;}
+
+.navcontainer{max-width: 960px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+padding: .75rem 0;}
+
+/* products and biz info */
+
+.productcontainer {max-width: 960px;
+margin: 0 auto;}
+
+.products{display: flex;
+justify-content: space-between;
+}
+
+.productimage{ display: flex;
+height: 9rem;
+padding: 2rem; 0;
+border: 4px solid black;
+margin-top: 3rem;}
+
+.productimage img{max-width: 8rem;}
+
+
+.description{display: block;
+color: white;
+width: 100%;
+background-color: black;
+text-align: center;
+padding: .5rem 0;
+}
+
+/* business info */
+.businesscontainer{max-width: 960px;
+margin: 0 auto;}
+
+.businessitems{
+margin-top: 3rem;
+display: flex;
+justify-content: space-between;}
+
+.businessitems span{display: block;}
+
+.items .title {background-color: black;
+padding: 1rem 2rem;
+width: 90%;
+color: white;}
+
+
+/* footer */
+
+.footer {height: 5rem;
+background-color: black;
+color: white;
+text-align: left;
+margin-top: 4rem;
+display: flex;
+align-items: center;}
+
+
+/* media queries*/
+
+@media only screen and (max-width: 1024px;){
+  .productwatch{display: none;
+  }
+  .product{width: 50%;}
+  nav ul{display: none;}
+}
+
+@media only screen and (max-width: 470px;){}
